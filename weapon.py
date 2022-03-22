@@ -1,10 +1,4 @@
 class Weapon:
-    def __init__(self, name, attack_power):
-        self.name = ''
-        self.attack_power = int
-
-    def name():
-        pass
-
-    def attack_power():
-        pass
+    def __init__(self, weapon, attack_power):
+        self.name = weapon
+        self.attack_power = attack_power
